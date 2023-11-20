@@ -1,0 +1,15 @@
+#include "shell.h"
+
+int main(void) {
+    char *command = "cat";
+    char *full_path = search_path(command);
+
+    if (full_path != NULL) {
+        printf("Full path for '%s': %s\n", command, full_path);
+        free(full_path);
+    } else {
+        printf("Command '%s' not found\n", command);
+    }
+
+    return 0;
+}
