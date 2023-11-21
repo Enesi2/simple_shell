@@ -11,8 +11,8 @@ char *_strcpy(char *dest, char *src);
  * @s: strings to be converted
  *
  * Return: The value of the converted string.
- * 
- * A team project 
+ *
+ * A team project
  */
 int _atoi(char *s)
 {
