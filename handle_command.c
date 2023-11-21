@@ -30,5 +30,3 @@ void handle_command(char **arr, char **env, char *buf, char *program,
 		_fork(arr, env, status);
 	}
 }
-
-_echo
